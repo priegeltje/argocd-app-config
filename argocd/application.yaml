@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: git@github.com:priegeltje/argocd-app-config.git
     targetRevision: HEAD
-    path: ../dev/overlays/dev
+    path: dev/overlays/dev
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: my-example-app
